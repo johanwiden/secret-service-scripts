@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "secret_service_scripts"
+version = "0.1.0"
+authors = [
+  { name="Johan Widén", email="j.e.widen@gmail.com" },
+]
+description = "List password entries, search for username, get username and password using Secret Service API"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["SecretStorage"]
+classifiers = [
+    # complete classifier list:
+    # http://pypi.python.org/pypi?%3Aaction=list_classifiers
+    'Development Status :: 4 - Beta',
+    'License :: OSI Approved :: MIT License',
+    'Environment :: X11 Applications',
+    'Intended Audience :: End Users/Desktop',
+    'Natural Language :: English',
+    'Operating System :: POSIX',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Topic :: Desktop Environment',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/johanwiden/secret-service-scripts"
+"Bug Tracker" = "https://github.com/johanwiden/secret-service-scripts/issues"
